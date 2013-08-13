@@ -31,7 +31,7 @@ python2.6 setup.py build
 
 %install
 rm -rf %{buildroot}
-python2.6 setup.py --root="%{buildroot}" --prefix=/usr
+python2.6 setup.py install --root="%{buildroot}" --prefix=/usr
 
 
 %clean
