@@ -41,9 +41,9 @@ python2.6 setup.py install --root="%{buildroot}" --prefix=/usr
 %files
 %defattr (-,root,root,-)
 %{_prefix}/lib/python2.6/site-packages/bunsan_common-0.0-py2.6.egg-info
+%{_prefix}/lib/python2.6/site-packages/bunsan/__init__.py
 %{_prefix}/lib/python2.6/site-packages/bunsan/__init__.pyc
 %{_prefix}/lib/python2.6/site-packages/bunsan/__init__.pyo
-%{_prefix}/lib/python2.6/site-packages/bunsan/__init__.py
 
 
 %changelog
